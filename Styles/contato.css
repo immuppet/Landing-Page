@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 76px;
+}
+
+h2{
+    font-size: 66px;
+    font-weight: 200;
+    margin-top: -70px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+}
+
+article img{
+    max-width: 450px;
+    max-height: 550px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: -10px;   
+}
+
+.btn-instagram{
+    border: 2px solid rgb(226, 43, 217);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 15px;
+}
+
+.btn-whatsapp{
+    border: 2px solid rgb(95, 226, 43);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 15px;
+}
+
+.btn-facebook{
+    border: 2px solid rgb(43, 46, 226);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 15px;
+}
+
+.btn-instagram:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(226, 43, 217);
+    border: 2px solid rgb(226, 43, 217);
+}
+
+.btn-whatsapp:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 226, 43);
+    border: 2px solid rgb(95, 226, 43);
+}
+
+.btn-facebook:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(43, 46, 226);
+    border: 2px solid rgb(43, 46, 226);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

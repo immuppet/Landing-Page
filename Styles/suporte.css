@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding: 50px;
+    overflow-y: hidden;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article img{
+    max-width: 550px;
+    max-height: 650px;
+}
+
+aside h1{
+    font-size: 36px;
+}
+
+form input{
+    font-size: 20px; 
+    width: 500px;  
+}
